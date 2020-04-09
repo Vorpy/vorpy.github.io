@@ -61,6 +61,8 @@
 			<p>2016 - 2017: Met world leaders and formed alliances for the fun times to come.</p>
 			<p>2018: Out on a hunt. Searching for recruits, hiding in the shadows, sniping with their puns and memes.
 			</p>
+			<b id="timer"></b>
+
 			<p>Skills:</p>
 			<p>Awesome. Trustworthy. Punctual. Pun-oriented. Some of the few words to describe the awesome
 				people I am looking for. There are so many of you out there and I'm looking for you.</p>
@@ -97,6 +99,37 @@
 			<a href='privacy_policy.html'>Terms and Conditions</a>
 		</div>
 	</footer>
+	<script>
+		// Set the date we're counting down to
+		var countDownDate = new Date("April 12, 2020 12:00:00").getTime();
+		
+		// Update the count down every 1 second
+		var x = setInterval(function() {
+		
+		  // Get today's date and time
+		  var now = new Date().getTime();
+			
+		  // Find the distance between now and the count down date
+		  var distance = countDownDate - now;
+			
+		  // Time calculations for days, hours, minutes and seconds
+		  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+		  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+		  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+		  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+			
+		  // Output the result in an element with id="demo"
+		  document.getElementById("timer").innerHTML = days + "d " + hours + "h "
+		  + minutes + "m " + seconds + "s ";
+			
+		  // If the count down is over, write some text 
+		  if (distance < 0) {
+			clearInterval(x);
+			document.getElementById("timer").innerHTML = "EXPIRED";
+		  }
+		}, 1000);
+		</script>
+		
 </body>
 
 </html>
