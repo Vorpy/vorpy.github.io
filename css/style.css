@@ -40,7 +40,7 @@ h2 {
 
 img.portrait {
     border-radius: 50%;
-    border: 10px solid #2f3235;
+    border: 10px solid #3c3939;
     margin: 2em 3em;
     width: 300px;
     height: 300px
@@ -48,6 +48,10 @@ img.portrait {
 
 .column {
     flex: 1
+}
+
+.main-page-heading{
+font-weight: 700;
 }
 
 main {

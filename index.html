@@ -37,12 +37,15 @@
     </main>
     <br />
     <br />
+    <div class="container">
+        
+    </div>
     <div class="row">
         <div class="col-md-4">
             <img src="images/vorpy.jpeg" class="portrait" alt="Portrait" />
         </div>
         <div class="col-md-8">
-            <h1>Hello.</h1>
+            <h1 class="main-page-heading">Hello.</h1>
             <h2>I am Vorpy.</h2>
             <p>Vorpy. It’s a familiar name amongst only the most famous personalities in the world. I am a half
                 marshmallow half nugget rainbow pooping garlic bread man created by the famous Gordon Ramsey himself, in
@@ -98,26 +101,29 @@
 
             <div class="links">
                 <a rel="me" href="mailto:vorpy19@gmail.com" title="E-mail">
-                    <span class="far fa-envelope" style="color: #2f3235;"></span>
+                    <span class="far fa-envelope fa-3x" style="color: #2f3235;"></span>
                 </a>
                 <a rel="me" href="https://www.instagram.com/i_am_vorpy/saved/" title="Instagram">
-                    <span class="fab fa-instagram" style="color: #2f3235;"></span>
+                    <span class="fab fa-instagram fa-3x" style="color: #2f3235;"></span>
                 </a>
                 <a rel="me" href="https://www.facebook.com/iamvorpy/" title="Facebook">
-                    <span class="fab fa-facebook-square" style="color: #2f3235;"></span>
+                    <span class="fab fa-facebook-square fa-3x" style="color: #2f3235;"></span>
                 </a>
             </div>
         </div>
-        </main>
+    </div>
 
         <footer>
             <div class="column"></div>
             <div class="column">
                 <a href='privacy_policy.html'>Terms and Conditions</a>
             </div>
+            <br>
+            <br>
+            <br>
         </footer>
         <script>
-            var countDownDate = new Date("May 15, 2020 12:00:00").getTime();
+            var countDownDate = new Date("July 15, 2020 12:00:00").getTime();
             var x = setInterval(function () {
                 var now = new Date().getTime();
                 var distance = countDownDate - now;
@@ -125,8 +131,8 @@
                 var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
                 var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
                 var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-                document.getElementById("timer").innerHTML = days + "d " + hours + "h " +
-                    minutes + "m " + seconds + "s ";
+                document.getElementById("timer").innerHTML = days + " Days " + hours + " Hours " +
+                    minutes + " Minutes " + seconds + " Seconds ";
                 if (distance < 0) {
                     clearInterval(x);
                     document.getElementById("timer").innerHTML = "EXPIRED";
