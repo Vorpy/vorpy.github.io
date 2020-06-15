@@ -24,7 +24,7 @@ a:hover {
 }
 
 h1 {
-    font-size: 8rem
+    font-size: 9rem
 }
 
 h2 {
@@ -105,6 +105,9 @@ ul {
     .nav-custom-item {
         margin: .1rem;
         font-size: 2rem;
+    }
+    h1 {
+        font-size: 7.5rem
     }
 }
 
