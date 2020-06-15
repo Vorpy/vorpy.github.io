@@ -7,12 +7,13 @@ body {
 }
 
 html {
-    font-family: Montserrat, "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 16px;
     overflow-y: auto
 }
 
 body {
+    font-family: 'Noto Sans', sans-serif;
     background-color: #fcf94c
 }
 
