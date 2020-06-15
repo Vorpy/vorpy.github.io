@@ -7,14 +7,15 @@ body {
 }
 
 html {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 16px;
     overflow-y: auto
 }
 
 body {
-    font-family: 'Noto Sans', sans-serif;
-    background-color: #fcf94c
+    color: #3c3939;
+    font-family: 'Raleway', sans-serif;
+    background-color: #ffed00ad;
 }
 
 a {
