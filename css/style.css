@@ -7,8 +7,7 @@ html {
 body {
     padding-left: 1rem;
     padding-right: 1rem;
-    /* padding: 0; */
-    color: #3a3939d9;
+    color: #3a3939f2;
     font-family: 'Raleway', sans-serif;
     background-color: #ffed00ad;
 }
@@ -45,9 +44,8 @@ h2 {
 img.portrait {
     border-radius: 50%;
     border: 10px solid #3a3939d9 ;
-    margin: 2em 3em;
-    width: 300px;
-    height: 300px
+    width: 100%;
+    height: auto;
 }
 
 .column {
