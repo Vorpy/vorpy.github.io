@@ -109,15 +109,18 @@ footer {
 }
 
 .blog-title {
+    height: 20px;
     font-weight: 600;
     font-size: 21px;
 }
 
 .blog-desc {
+    height: 60px;
     font-size: 14px;
 }
 
 .blog-img {
+    height: 300px;
     width: 100%;
 }
 
