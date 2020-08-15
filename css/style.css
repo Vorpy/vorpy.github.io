@@ -1,3 +1,10 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-yellow{
+    background-color: #ffc800ad;
+}
 .nav-item{
     margin-left: 15px;
     margin-right: 15px;
@@ -13,7 +20,9 @@ a{
     color: black;
     font-size: 50px;
 }
-
+.light-yellow{
+    background-color: #fff70340;
+}
 .card-heading{
     height: 40px;
     color: black;
@@ -24,6 +33,13 @@ a{
     width: 100%;
     height: 200px;
 }
+
+.main-heading{
+    font-weight: 900;
+    font-size: 100px;
+}
+
+
 .row-header{
     margin: 0px auto;
     padding:0px;
