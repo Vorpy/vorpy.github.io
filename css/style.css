@@ -61,41 +61,13 @@ a{
 
 .footer
 {
-    background-color: #1e1e1f;
+    background-color: white;
     margin:0px auto;
     padding:20px 0px 20px 0px;
-    color:#ffffff;
-    
-
-}
-.jumbotron 
-{
-    padding : 90px 30px 60px 30px;
-    margin: 0px auto;
-    
-    background-repeat: no-repeat;
-    color:#FFFFe0;
-    background-color: #ffcd38;
-
-}
-.address
-{
-    font-size: 80%;
-    margin:0px;
-    color:#ffffff;
 }
 
-.body
-{
-    padding:50px 0px 0px 0px;
-    z-index:0
-}
-.navbar-dark
-{
-    background-color: #000000;
-}
-
-#feedback
-{
-    width : 100%;
-}
+@media screen and (max-width: 768px) {
+    .col-sm-2 {
+      width: 16.667% !important;
+    }
+  }
